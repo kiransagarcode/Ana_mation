@@ -6,10 +6,17 @@ body {
     padding: 0;
     background-color:#DC143C !important;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   
   li, a {
     text-decoration: none;
     list-style: none;
+    color: inherit;
+  }
+  li {
+    cursor: pointer;
   }
   
   header {

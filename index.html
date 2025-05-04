@@ -22,18 +22,18 @@
     
     <div class="navs w-100 d-flex justify-content-center">
       <ul class="d-flex justify-content-center gap-5">
-        <li>About me</li>
-        <li>My Works</li>
-        <li>My Socials</li>
+        <li  onclick="document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })">About me</li>
+        <li> <a href="#ana">My Work</li>
+        <li> <a href="#works">My Socials</a></li>
       </ul>
     </div>
   </div>
 </header>
 
 <div class="main d-flex align-items-center flex-column">
-  <div class="who-are-u-section d-flex flex-column align-items-center">
+  <div class="who-are-u-section d-flex flex-column align-items-center" >
     <div class="who my-3 mt-5 text-center">
-    <h1>Who Are You?</h1>
+    <h1 id="who-are-u">Who Are You?</h1>
   </div>
   
   <div class="para">
@@ -54,7 +54,7 @@
   
 <!--   second section -->
   
-  <div class="my-project-section d-flex flex-column align-items-center">
+  <div id="ana" class="my-project-section d-flex flex-column align-items-center">
     <div class="who my-3 mt-5 text-center">
     <h1>ANA </h1>
   </div>
@@ -72,7 +72,7 @@
   </div>
 </div>
   
-  <section class="gallery-section">
+  <section id="works" class="gallery-section">
     <div class="container">
       <h2 class="gallery-title">My other Works</h2>
       
