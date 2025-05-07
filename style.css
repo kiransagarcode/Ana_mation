@@ -130,3 +130,14 @@ body {
           margin-bottom: 20px;
         }
       }
+
+      .fa {
+        font-size: 50px;
+        transition: font-size 1s ease;
+      }
+      
+      .fa:hover {
+        font-size: 60px;
+        color: #DC143C;
+      }
+      
